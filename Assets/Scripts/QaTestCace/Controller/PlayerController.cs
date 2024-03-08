@@ -31,8 +31,8 @@ namespace QaTestCace.Controller
         private void Awake()
         {
             _characterMovement = GetComponent<CharacterMovement>();
-        }
 
+        }
 
         public void SetHorizontal(float horizontal)
         {
