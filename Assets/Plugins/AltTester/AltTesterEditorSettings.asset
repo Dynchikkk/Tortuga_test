@@ -24,13 +24,13 @@ MonoBehaviour:
     _isSuite: 1
     _type: NUnit.Framework.Internal.TestAssembly
     _parentName: 
-    _testCaseCount: 9
+    _testCaseCount: 24
     _foldOut: 1
     _testResultMessage: 
     _testStackTrace: 
     _testDuration: 0
     path: 
-    _testSelectedCount: 9
+    _testSelectedCount: 20
   - _selected: 0
     _testName: QaTestCace
     _testAssembly: Assembly-CSharp-Editor
@@ -38,13 +38,13 @@ MonoBehaviour:
     _isSuite: 1
     _type: NUnit.Framework.Internal.TestSuite
     _parentName: C:/UnityProjects/Testovoye/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
-    _testCaseCount: 9
+    _testCaseCount: 24
     _foldOut: 1
     _testResultMessage: 
     _testStackTrace: 
     _testDuration: 0
     path: 
-    _testSelectedCount: 9
+    _testSelectedCount: 20
   - _selected: 0
     _testName: QaTestCace.Test
     _testAssembly: Assembly-CSharp-Editor
@@ -52,31 +52,31 @@ MonoBehaviour:
     _isSuite: 1
     _type: NUnit.Framework.Internal.TestSuite
     _parentName: QaTestCace
-    _testCaseCount: 9
+    _testCaseCount: 24
     _foldOut: 1
     _testResultMessage: 
     _testStackTrace: 
     _testDuration: 0
     path: 
-    _testSelectedCount: 9
-  - _selected: 1
+    _testSelectedCount: 20
+  - _selected: 0
     _testName: QaTestCace.Test.Game
     _testAssembly: Assembly-CSharp-Editor
     _status: 0
     _isSuite: 1
     _type: NUnit.Framework.Internal.TestSuite
     _parentName: QaTestCace.Test
-    _testCaseCount: 7
+    _testCaseCount: 22
     _foldOut: 1
     _testResultMessage: 
     _testStackTrace: 
     _testDuration: 0
     path: 
-    _testSelectedCount: 7
-  - _selected: 1
+    _testSelectedCount: 20
+  - _selected: 0
     _testName: QaTestCace.Test.Game.GameplayTest
     _testAssembly: Assembly-CSharp-Editor
-    _status: 1
+    _status: 0
     _isSuite: 1
     _type: NUnit.Framework.Internal.TestFixture
     _parentName: QaTestCace.Test.Game
@@ -86,8 +86,8 @@ MonoBehaviour:
     _testStackTrace: 
     _testDuration: 0
     path: 
-    _testSelectedCount: 2
-  - _selected: 1
+    _testSelectedCount: 0
+  - _selected: 0
     _testName: QaTestCace.Test.Game.GameplayTest.AutoFinish
     _testAssembly: Assembly-CSharp-Editor
     _status: 1
@@ -98,13 +98,13 @@ MonoBehaviour:
     _foldOut: 1
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 35.2589065
+    _testDuration: 6.624028
     path: Assets/Scripts/Editor/Tests/GameScene/GameplayTest.cs
     _testSelectedCount: 0
-  - _selected: 1
+  - _selected: 0
     _testName: QaTestCace.Test.Game.GameplayTest.ForceFinish
     _testAssembly: Assembly-CSharp-Editor
-    _status: 1
+    _status: 0
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
     _parentName: QaTestCace.Test.Game.GameplayTest
@@ -112,16 +112,30 @@ MonoBehaviour:
     _foldOut: 1
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 0.3386271
+    _testDuration: 0
     path: Assets/Scripts/Editor/Tests/GameScene/GameplayTest.cs
     _testSelectedCount: 0
   - _selected: 1
-    _testName: QaTestCace.Test.Game.MovementTests
+    _testName: QaTestCace.Test.Game.Movement
+    _testAssembly: Assembly-CSharp-Editor
+    _status: 0
+    _isSuite: 1
+    _type: NUnit.Framework.Internal.TestSuite
+    _parentName: QaTestCace.Test.Game
+    _testCaseCount: 20
+    _foldOut: 1
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 0
+    path: 
+    _testSelectedCount: 20
+  - _selected: 1
+    _testName: QaTestCace.Test.Game.Movement.MovementTestsClick
     _testAssembly: Assembly-CSharp-Editor
     _status: 1
     _isSuite: 1
     _type: NUnit.Framework.Internal.TestFixture
-    _parentName: QaTestCace.Test.Game
+    _parentName: QaTestCace.Test.Game.Movement
     _testCaseCount: 5
     _foldOut: 0
     _testResultMessage: 
@@ -130,76 +144,328 @@ MonoBehaviour:
     path: 
     _testSelectedCount: 5
   - _selected: 1
-    _testName: QaTestCace.Test.Game.MovementTests.CheckJump
+    _testName: QaTestCace.Test.Game.Movement.MovementTestsClick.CheckJump
     _testAssembly: Assembly-CSharp-Editor
     _status: 1
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
-    _parentName: QaTestCace.Test.Game.MovementTests
+    _parentName: QaTestCace.Test.Game.Movement.MovementTestsClick
     _testCaseCount: 1
     _foldOut: 1
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 1.1866789
-    path: Assets/Scripts/Editor/Tests/GameScene/MovementTests.cs
+    _testDuration: 1.2269908
+    path: Assets/Scripts/Editor/Tests/GameScene/Movement/MovementTestsClick.cs
     _testSelectedCount: 0
   - _selected: 1
-    _testName: QaTestCace.Test.Game.MovementTests.CheckMoveDown
+    _testName: QaTestCace.Test.Game.Movement.MovementTestsClick.CheckMoveDown
     _testAssembly: Assembly-CSharp-Editor
     _status: 1
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
-    _parentName: QaTestCace.Test.Game.MovementTests
+    _parentName: QaTestCace.Test.Game.Movement.MovementTestsClick
     _testCaseCount: 1
     _foldOut: 1
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 0.13951
-    path: Assets/Scripts/Editor/Tests/GameScene/MovementTests.cs
+    _testDuration: 0.1267526
+    path: Assets/Scripts/Editor/Tests/GameScene/Movement/MovementTestsClick.cs
     _testSelectedCount: 0
   - _selected: 1
-    _testName: QaTestCace.Test.Game.MovementTests.CheckMoveLeft
+    _testName: QaTestCace.Test.Game.Movement.MovementTestsClick.CheckMoveLeft
     _testAssembly: Assembly-CSharp-Editor
     _status: 1
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
-    _parentName: QaTestCace.Test.Game.MovementTests
+    _parentName: QaTestCace.Test.Game.Movement.MovementTestsClick
     _testCaseCount: 1
     _foldOut: 1
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 0.1422795
-    path: Assets/Scripts/Editor/Tests/GameScene/MovementTests.cs
+    _testDuration: 0.1376511
+    path: Assets/Scripts/Editor/Tests/GameScene/Movement/MovementTestsClick.cs
     _testSelectedCount: 0
   - _selected: 1
-    _testName: QaTestCace.Test.Game.MovementTests.CheckMoveRight
+    _testName: QaTestCace.Test.Game.Movement.MovementTestsClick.CheckMoveRight
     _testAssembly: Assembly-CSharp-Editor
     _status: 1
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
-    _parentName: QaTestCace.Test.Game.MovementTests
+    _parentName: QaTestCace.Test.Game.Movement.MovementTestsClick
     _testCaseCount: 1
     _foldOut: 1
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 0.1376045
-    path: Assets/Scripts/Editor/Tests/GameScene/MovementTests.cs
+    _testDuration: 0.1511908
+    path: Assets/Scripts/Editor/Tests/GameScene/Movement/MovementTestsClick.cs
     _testSelectedCount: 0
   - _selected: 1
-    _testName: QaTestCace.Test.Game.MovementTests.CheckMoveUp
+    _testName: QaTestCace.Test.Game.Movement.MovementTestsClick.CheckMoveUp
     _testAssembly: Assembly-CSharp-Editor
     _status: 1
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
-    _parentName: QaTestCace.Test.Game.MovementTests
+    _parentName: QaTestCace.Test.Game.Movement.MovementTestsClick
     _testCaseCount: 1
     _foldOut: 1
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 0.1370375
-    path: Assets/Scripts/Editor/Tests/GameScene/MovementTests.cs
+    _testDuration: 0.1257115
+    path: Assets/Scripts/Editor/Tests/GameScene/Movement/MovementTestsClick.cs
     _testSelectedCount: 0
   - _selected: 1
+    _testName: QaTestCace.Test.Game.Movement.MovementTestsMouseClick
+    _testAssembly: Assembly-CSharp-Editor
+    _status: 1
+    _isSuite: 1
+    _type: NUnit.Framework.Internal.TestFixture
+    _parentName: QaTestCace.Test.Game.Movement
+    _testCaseCount: 5
+    _foldOut: 0
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 0
+    path: 
+    _testSelectedCount: 5
+  - _selected: 1
+    _testName: QaTestCace.Test.Game.Movement.MovementTestsMouseClick.CheckJump
+    _testAssembly: Assembly-CSharp-Editor
+    _status: 1
+    _isSuite: 0
+    _type: NUnit.Framework.Internal.TestMethod
+    _parentName: QaTestCace.Test.Game.Movement.MovementTestsMouseClick
+    _testCaseCount: 1
+    _foldOut: 0
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 1.6390967
+    path: Assets/Scripts/Editor/Tests/GameScene/Movement/MovementTestsMouseClick.cs
+    _testSelectedCount: 0
+  - _selected: 1
+    _testName: QaTestCace.Test.Game.Movement.MovementTestsMouseClick.CheckMoveDown
+    _testAssembly: Assembly-CSharp-Editor
+    _status: 1
+    _isSuite: 0
+    _type: NUnit.Framework.Internal.TestMethod
+    _parentName: QaTestCace.Test.Game.Movement.MovementTestsMouseClick
+    _testCaseCount: 1
+    _foldOut: 0
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 0.345797
+    path: Assets/Scripts/Editor/Tests/GameScene/Movement/MovementTestsMouseClick.cs
+    _testSelectedCount: 0
+  - _selected: 1
+    _testName: QaTestCace.Test.Game.Movement.MovementTestsMouseClick.CheckMoveLeft
+    _testAssembly: Assembly-CSharp-Editor
+    _status: 1
+    _isSuite: 0
+    _type: NUnit.Framework.Internal.TestMethod
+    _parentName: QaTestCace.Test.Game.Movement.MovementTestsMouseClick
+    _testCaseCount: 1
+    _foldOut: 0
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 0.351979
+    path: Assets/Scripts/Editor/Tests/GameScene/Movement/MovementTestsMouseClick.cs
+    _testSelectedCount: 0
+  - _selected: 1
+    _testName: QaTestCace.Test.Game.Movement.MovementTestsMouseClick.CheckMoveRight
+    _testAssembly: Assembly-CSharp-Editor
+    _status: 1
+    _isSuite: 0
+    _type: NUnit.Framework.Internal.TestMethod
+    _parentName: QaTestCace.Test.Game.Movement.MovementTestsMouseClick
+    _testCaseCount: 1
+    _foldOut: 0
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 0.3210287
+    path: Assets/Scripts/Editor/Tests/GameScene/Movement/MovementTestsMouseClick.cs
+    _testSelectedCount: 0
+  - _selected: 1
+    _testName: QaTestCace.Test.Game.Movement.MovementTestsMouseClick.CheckMoveUp
+    _testAssembly: Assembly-CSharp-Editor
+    _status: 1
+    _isSuite: 0
+    _type: NUnit.Framework.Internal.TestMethod
+    _parentName: QaTestCace.Test.Game.Movement.MovementTestsMouseClick
+    _testCaseCount: 1
+    _foldOut: 0
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 0.3265579
+    path: Assets/Scripts/Editor/Tests/GameScene/Movement/MovementTestsMouseClick.cs
+    _testSelectedCount: 0
+  - _selected: 1
+    _testName: QaTestCace.Test.Game.Movement.MovementTestsTap
+    _testAssembly: Assembly-CSharp-Editor
+    _status: 1
+    _isSuite: 1
+    _type: NUnit.Framework.Internal.TestFixture
+    _parentName: QaTestCace.Test.Game.Movement
+    _testCaseCount: 5
+    _foldOut: 0
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 0
+    path: 
+    _testSelectedCount: 5
+  - _selected: 1
+    _testName: QaTestCace.Test.Game.Movement.MovementTestsTap.CheckJump
+    _testAssembly: Assembly-CSharp-Editor
+    _status: 1
+    _isSuite: 0
+    _type: NUnit.Framework.Internal.TestMethod
+    _parentName: QaTestCace.Test.Game.Movement.MovementTestsTap
+    _testCaseCount: 1
+    _foldOut: 0
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 1.2050277
+    path: Assets/Scripts/Editor/Tests/GameScene/Movement/MovementTestsTap.cs
+    _testSelectedCount: 0
+  - _selected: 1
+    _testName: QaTestCace.Test.Game.Movement.MovementTestsTap.CheckMoveDown
+    _testAssembly: Assembly-CSharp-Editor
+    _status: 1
+    _isSuite: 0
+    _type: NUnit.Framework.Internal.TestMethod
+    _parentName: QaTestCace.Test.Game.Movement.MovementTestsTap
+    _testCaseCount: 1
+    _foldOut: 0
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 0.1400042
+    path: Assets/Scripts/Editor/Tests/GameScene/Movement/MovementTestsTap.cs
+    _testSelectedCount: 0
+  - _selected: 1
+    _testName: QaTestCace.Test.Game.Movement.MovementTestsTap.CheckMoveLeft
+    _testAssembly: Assembly-CSharp-Editor
+    _status: 1
+    _isSuite: 0
+    _type: NUnit.Framework.Internal.TestMethod
+    _parentName: QaTestCace.Test.Game.Movement.MovementTestsTap
+    _testCaseCount: 1
+    _foldOut: 0
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 0.1368733
+    path: Assets/Scripts/Editor/Tests/GameScene/Movement/MovementTestsTap.cs
+    _testSelectedCount: 0
+  - _selected: 1
+    _testName: QaTestCace.Test.Game.Movement.MovementTestsTap.CheckMoveRight
+    _testAssembly: Assembly-CSharp-Editor
+    _status: 1
+    _isSuite: 0
+    _type: NUnit.Framework.Internal.TestMethod
+    _parentName: QaTestCace.Test.Game.Movement.MovementTestsTap
+    _testCaseCount: 1
+    _foldOut: 0
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 0.1374877
+    path: Assets/Scripts/Editor/Tests/GameScene/Movement/MovementTestsTap.cs
+    _testSelectedCount: 0
+  - _selected: 1
+    _testName: QaTestCace.Test.Game.Movement.MovementTestsTap.CheckMoveUp
+    _testAssembly: Assembly-CSharp-Editor
+    _status: 1
+    _isSuite: 0
+    _type: NUnit.Framework.Internal.TestMethod
+    _parentName: QaTestCace.Test.Game.Movement.MovementTestsTap
+    _testCaseCount: 1
+    _foldOut: 0
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 0.1288853
+    path: Assets/Scripts/Editor/Tests/GameScene/Movement/MovementTestsTap.cs
+    _testSelectedCount: 0
+  - _selected: 1
+    _testName: QaTestCace.Test.Game.Movement.MovementTestsTouch
+    _testAssembly: Assembly-CSharp-Editor
+    _status: 1
+    _isSuite: 1
+    _type: NUnit.Framework.Internal.TestFixture
+    _parentName: QaTestCace.Test.Game.Movement
+    _testCaseCount: 5
+    _foldOut: 0
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 0
+    path: 
+    _testSelectedCount: 5
+  - _selected: 1
+    _testName: QaTestCace.Test.Game.Movement.MovementTestsTouch.CheckJump
+    _testAssembly: Assembly-CSharp-Editor
+    _status: 1
+    _isSuite: 0
+    _type: NUnit.Framework.Internal.TestMethod
+    _parentName: QaTestCace.Test.Game.Movement.MovementTestsTouch
+    _testCaseCount: 1
+    _foldOut: 0
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 1.2354128
+    path: Assets/Scripts/Editor/Tests/GameScene/Movement/MovementTestsTouch.cs
+    _testSelectedCount: 0
+  - _selected: 1
+    _testName: QaTestCace.Test.Game.Movement.MovementTestsTouch.CheckMoveDown
+    _testAssembly: Assembly-CSharp-Editor
+    _status: 1
+    _isSuite: 0
+    _type: NUnit.Framework.Internal.TestMethod
+    _parentName: QaTestCace.Test.Game.Movement.MovementTestsTouch
+    _testCaseCount: 1
+    _foldOut: 0
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 0.1388875
+    path: Assets/Scripts/Editor/Tests/GameScene/Movement/MovementTestsTouch.cs
+    _testSelectedCount: 0
+  - _selected: 1
+    _testName: QaTestCace.Test.Game.Movement.MovementTestsTouch.CheckMoveLeft
+    _testAssembly: Assembly-CSharp-Editor
+    _status: 1
+    _isSuite: 0
+    _type: NUnit.Framework.Internal.TestMethod
+    _parentName: QaTestCace.Test.Game.Movement.MovementTestsTouch
+    _testCaseCount: 1
+    _foldOut: 0
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 0.1385956
+    path: Assets/Scripts/Editor/Tests/GameScene/Movement/MovementTestsTouch.cs
+    _testSelectedCount: 0
+  - _selected: 1
+    _testName: QaTestCace.Test.Game.Movement.MovementTestsTouch.CheckMoveRight
+    _testAssembly: Assembly-CSharp-Editor
+    _status: 1
+    _isSuite: 0
+    _type: NUnit.Framework.Internal.TestMethod
+    _parentName: QaTestCace.Test.Game.Movement.MovementTestsTouch
+    _testCaseCount: 1
+    _foldOut: 0
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 0.1481743
+    path: Assets/Scripts/Editor/Tests/GameScene/Movement/MovementTestsTouch.cs
+    _testSelectedCount: 0
+  - _selected: 1
+    _testName: QaTestCace.Test.Game.Movement.MovementTestsTouch.CheckMoveUp
+    _testAssembly: Assembly-CSharp-Editor
+    _status: 1
+    _isSuite: 0
+    _type: NUnit.Framework.Internal.TestMethod
+    _parentName: QaTestCace.Test.Game.Movement.MovementTestsTouch
+    _testCaseCount: 1
+    _foldOut: 0
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 0.1275734
+    path: Assets/Scripts/Editor/Tests/GameScene/Movement/MovementTestsTouch.cs
+    _testSelectedCount: 0
+  - _selected: 0
     _testName: QaTestCace.Test.Lobby
     _testAssembly: Assembly-CSharp-Editor
     _status: 0
@@ -207,52 +473,52 @@ MonoBehaviour:
     _type: NUnit.Framework.Internal.TestSuite
     _parentName: QaTestCace.Test
     _testCaseCount: 2
-    _foldOut: 1
+    _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
     _testDuration: 0
     path: 
-    _testSelectedCount: 2
-  - _selected: 1
+    _testSelectedCount: 0
+  - _selected: 0
     _testName: QaTestCace.Test.Lobby.LoadTests
     _testAssembly: Assembly-CSharp-Editor
-    _status: 1
+    _status: 0
     _isSuite: 1
     _type: NUnit.Framework.Internal.TestFixture
     _parentName: QaTestCace.Test.Lobby
     _testCaseCount: 2
-    _foldOut: 1
+    _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
     _testDuration: 0
     path: 
-    _testSelectedCount: 2
-  - _selected: 1
+    _testSelectedCount: 0
+  - _selected: 0
     _testName: QaTestCace.Test.Lobby.LoadTests.StartGame
     _testAssembly: Assembly-CSharp-Editor
-    _status: 1
+    _status: 0
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
     _parentName: QaTestCace.Test.Lobby.LoadTests
     _testCaseCount: 1
-    _foldOut: 1
+    _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 0.1890915
+    _testDuration: 0
     path: Assets/Scripts/Editor/Tests/StartScene/LoadTests.cs
     _testSelectedCount: 0
-  - _selected: 1
+  - _selected: 0
     _testName: QaTestCace.Test.Lobby.LoadTests.StartLobby
     _testAssembly: Assembly-CSharp-Editor
-    _status: 1
+    _status: 0
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
     _parentName: QaTestCace.Test.Lobby.LoadTests
     _testCaseCount: 1
-    _foldOut: 1
+    _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 0.0684295
+    _testDuration: 0
     path: Assets/Scripts/Editor/Tests/StartScene/LoadTests.cs
     _testSelectedCount: 0
   - _selected: 1
