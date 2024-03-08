@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltTester.AltTesterUnitySDK", "AltTester.AltTesterUnitySDK.csproj", "{B97623F6-7E6B-EA7E-5637-408FD4E2C707}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltTester.AltTesterUnitySDK.Driver", "AltTester.AltTesterUnitySDK.Driver.csproj", "{71A1D946-8098-8515-9E0D-55666F615FED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltTester.AltTesterUnitySDK.Editor", "AltTester.AltTesterUnitySDK.Editor.csproj", "{5AD44590-207C-BF95-9F1A-FE6406856DC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{0673C11C-9C16-DA96-931F-339C36DA944C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{EB5C0680-4196-FB23-3998-CFCC988E143E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyCharacterMovement.CharacterMovement", "EasyCharacterMovement.CharacterMovement.csproj", "{3F296CB3-A7AC-F0D2-1D28-A66DB6D4C6CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B97623F6-7E6B-EA7E-5637-408FD4E2C707}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B97623F6-7E6B-EA7E-5637-408FD4E2C707}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B97623F6-7E6B-EA7E-5637-408FD4E2C707}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B97623F6-7E6B-EA7E-5637-408FD4E2C707}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71A1D946-8098-8515-9E0D-55666F615FED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71A1D946-8098-8515-9E0D-55666F615FED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71A1D946-8098-8515-9E0D-55666F615FED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71A1D946-8098-8515-9E0D-55666F615FED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AD44590-207C-BF95-9F1A-FE6406856DC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AD44590-207C-BF95-9F1A-FE6406856DC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AD44590-207C-BF95-9F1A-FE6406856DC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AD44590-207C-BF95-9F1A-FE6406856DC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0673C11C-9C16-DA96-931F-339C36DA944C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0673C11C-9C16-DA96-931F-339C36DA944C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0673C11C-9C16-DA96-931F-339C36DA944C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0673C11C-9C16-DA96-931F-339C36DA944C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB5C0680-4196-FB23-3998-CFCC988E143E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB5C0680-4196-FB23-3998-CFCC988E143E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB5C0680-4196-FB23-3998-CFCC988E143E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB5C0680-4196-FB23-3998-CFCC988E143E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F296CB3-A7AC-F0D2-1D28-A66DB6D4C6CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F296CB3-A7AC-F0D2-1D28-A66DB6D4C6CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F296CB3-A7AC-F0D2-1D28-A66DB6D4C6CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F296CB3-A7AC-F0D2-1D28-A66DB6D4C6CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
